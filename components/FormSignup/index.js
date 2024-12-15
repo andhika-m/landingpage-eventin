@@ -96,7 +96,7 @@ export default function FormSignin() {
             type={'email'}
             name='email'
             value={form.email}
-            placeholder={'semina@bwa.com'}
+            placeholder={'eventin@gmail.com'}
             onChange={handleChange}
           />
 

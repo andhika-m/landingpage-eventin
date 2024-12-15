@@ -56,7 +56,7 @@ export default function DetailPage({ detailPage, id }) {
         <img
           src='/images/details-image.png'
           className='img-content'
-          alt='semina'
+          alt='eventin'
         />
       </div>
       <div className='details-content container'>
@@ -72,7 +72,7 @@ export default function DetailPage({ detailPage, id }) {
               {detailPage.keyPoint.map((key, i) => {
                 return (
                   <div className='d-flex align-items-start gap-3' key={i}>
-                    <img src='/icons/ic-check.svg' alt='semina' />
+                    <img src='/icons/ic-check.svg' alt='eventin' />
                     <span>{key}</span>
                   </div>
                 );
@@ -101,7 +101,7 @@ export default function DetailPage({ detailPage, id }) {
             <div className='d-flex align-items-center gap-3 mt-3'>
               <img
                 src={`${process.env.NEXT_PUBLIC_API}/${detailPage?.talent?.image?.name}`}
-                alt='semina'
+                alt='eventin'
                 width='60'
               />
               <div>
@@ -117,19 +117,19 @@ export default function DetailPage({ detailPage, id }) {
                 {ticket.statusTicketCategories ? (
                   <>
                     <div className='price my-3'>
-                      {ticket.price === 0 ? 'free' : `$${ticket.price}`}
+                      {ticket.price === 0 ? 'free' : `Rp.${ticket.price}`}
                       <span>/person</span>
                     </div>
                     <div className='d-flex gap-3 align-items-center card-details'>
-                      <img src='/icons/ic-marker.svg' alt='semina' />{' '}
+                      <img src='/icons/ic-marker.svg' alt='eventin' />{' '}
                       {detailPage.venueName}
                     </div>
                     <div className='d-flex gap-3 align-items-center card-details'>
-                      <img src='/icons/ic-time.svg' alt='semina' />{' '}
+                      <img src='/icons/ic-time.svg' alt='eventin' />{' '}
                       {moment(detailPage.date).format('HH.MM A')}
                     </div>
                     <div className='d-flex gap-3 align-items-center card-details'>
-                      <img src='/icons/ic-calendar.svg' alt='semina' />{' '}
+                      <img src='/icons/ic-calendar.svg' alt='eventin' />{' '}
                       {formatDate(detailPage.date)}
                     </div>
 

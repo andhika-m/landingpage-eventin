@@ -7,7 +7,7 @@ export default function Stories() {
 			<div className="d-flex flex-row justify-content-center align-items-center container">
 				<img
 					src="/images/story.png"
-					alt="semina"
+					alt="eventin"
 					className="d-none d-lg-block"
 					width="515"
 				/>

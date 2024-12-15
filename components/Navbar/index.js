@@ -68,7 +68,7 @@ export default function Navbar() {
 											data-bs-toggle="dropdown"
 											aria-expanded="false"
 										>
-											<img src="/images/avatar.png" alt="semina" width="60" />
+											<img src="/images/avatar.png" alt="eventin" width="60" />
 										</a>
 
 										<a
@@ -79,7 +79,7 @@ export default function Navbar() {
 											aria-expanded="false"
 											aria-controls="collapseExample"
 										>
-											<img src="/images/avatar.png" alt="semina" width="60" />
+											<img src="/images/avatar.png" alt="eventin" width="60" />
 										</a>
 
 										<ul
@@ -88,19 +88,19 @@ export default function Navbar() {
 										>
 											<li>
 												<Link href={"/dashboard"}>
-													<a className="dropdown-item">Dashboard</a>
+													<a className="dropdown-item">My Event</a>
 												</Link>
 											</li>
-											<li>
+											{/* <li>
 												<a className="dropdown-item" href="#">
 													Settings
 												</a>
-											</li>
-											<li>
+											</li> */}
+											{/* <li>
 												<a className="dropdown-item" href="#">
 													Rewards
 												</a>
-											</li>
+											</li> */}
 											<li onClick={() => handleLogout()}>
 												<a className="dropdown-item">Sign Out</a>
 											</li>

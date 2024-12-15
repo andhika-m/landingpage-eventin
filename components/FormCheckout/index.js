@@ -118,7 +118,7 @@ export default function FormCheckout({ tickets }) {
   };
 
   return (
-    <form action='' className='container form-semina'>
+    <form action='' className='container form-eventin'>
       <div className='personal-details'>
         <div className='row row-cols-lg-8 row-cols-md-2 row-cols-1 justify-content-lg-center'>
           <div className='form-title col-lg-8'>
@@ -166,7 +166,7 @@ export default function FormCheckout({ tickets }) {
               type='email'
               className='form-control'
               id='email_address'
-              placeholder='semina@bwa.com'
+              placeholder='eventin@gmail.com'
               name='email'
               value={form.email}
               onChange={handleChange}

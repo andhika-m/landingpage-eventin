@@ -31,7 +31,7 @@ export default function Checkout({ detailPage }) {
             <img
               src='/images/details-image.png'
               className='event-image'
-              alt='semina'
+              alt='eventin'
             />
             <div className='d-flex flex-column gap-3'>
               <h5>{detailPage.title}</h5>

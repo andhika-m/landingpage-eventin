@@ -16,11 +16,11 @@ export default function CardEvent({ data, title, subTitle }) {
                 <span className='badge-pricing'>
                   {data.tickets[0].price === 0
                     ? 'free'
-                    : `$${data.tickets[0].price}`}
+                    : `Rp.${data.tickets[0].price}`}
                 </span>
                 <img
                   src={`${process.env.NEXT_PUBLIC_API}/${data.image.name}`}
-                  alt='semina'
+                  alt='eventin'
                 />
                 <div className='card-content'>
                   <div className='card-title'>{data.title}</div>
